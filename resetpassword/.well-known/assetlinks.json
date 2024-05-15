@@ -1,9 +1,0 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.nutrijoy",
-    "sha256_cert_fingerprints":
-    ["1C:C7:D1:C7:A7:50:83:CB:E2:FB:48:1E:A5:B1:A4:71:F7:EB:56:2D:86:68:7F:0A:57:CA:61:5C:3B:2A:65:59"]
-  }
-}]
