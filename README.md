@@ -92,13 +92,4 @@ NutriJoy est une application mobile Android conçue pour aider les utilisateurs 
 - [Retrofit](https://square.github.io/retrofit/)
 - [Firebase](https://firebase.google.com/docs)
 - [Android Studio](https://developer.android.com/studio)
-
----
-
-## 🖋️ **Remerciements**
-Nous remercions notre encadrant, M. Hichem Boussaid, ainsi que nos camarades bêta-testeurs pour leur soutien tout au long du projet.
-
----
-
-## 🔗 **Lien SVN du projet**
-[https://forge.ens.math-info.univ-paris5.fr/svn/2023-l2ae1/](https://forge.ens.math-info.univ-paris5.fr/svn/2023-l2ae1/)
+- [MongoDB Java SDK](https://www.mongodb.com/docs/atlas/device-sdks/sdk/java/)
