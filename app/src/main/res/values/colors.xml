@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- les couleurs définies en variable-->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="vertClair">#0cac74</color>
+    <color name="vertFonce">#18242c</color>
+    <!-- j'ai changé ton gris mathieu -->
+    <color name="grisClair">#ececec</color>
+    <color name="grisClair2">#a9a9a9</color>
+
+    <color name="vertClair2">#e4ffe0</color>
+
+
+    <color name="grey">#aaa</color>
+    <color name="darkGrey">#ff424242</color>
+</resources>

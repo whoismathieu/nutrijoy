@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/ScreenBackground"
+    tools:context="com.activities.MainActivity">
+
+
+    <!-- Espace de l'activité qui contient un fragment -->
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/containerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/barreMenu"
+        />
+
+
+    <!-- Barre de menu -->
+
+    <!-- (voir dossier menu pour plus d'informations) -->
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/barreMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/vertFonce"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
+        app:itemActiveIndicatorStyle="@style/App.Custom.Indicator"
+        app:menu="@menu/bouton_menu" />
+
+
+
+
+</RelativeLayout>

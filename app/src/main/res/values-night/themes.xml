@@ -1,0 +1,59 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TestFragmentActivity2" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Mets le theme que en mode clair
+    <style name="Base.Theme.TestFragmentActivity2" parent="Theme.Material3.Light.NoActionBar">
+    -->
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+
+    <style name="ItemCouleur">
+        <item name="cardBackgroundColor">@color/vertFonce</item>
+    </style>
+
+    <style name="ItemText">
+        <item name="color">@color/white</item>
+        <item name="fontFamily">@font/cocogoose_trial</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="BoutonText">
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/cocogoose_trial</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="TitreText">
+        <item name="android:textColor">@color/grisClair</item>
+        <item name="fontFamily">@font/cocogoose_trial</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="nomProduit">
+        <item name="android:textColor">@color/grisClair</item>
+        <item name="fontFamily">@font/cocogoose_trial</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="BoutonPara">
+        <item name="android:textColor">@color/grisClair</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="textFin">
+        <item name="android:textColor">@color/grisClair</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+    <style name="ScreenBackground">
+        <item name="android:background">@color/black</item>
+    </style>
+
+
+
+
+</resources>

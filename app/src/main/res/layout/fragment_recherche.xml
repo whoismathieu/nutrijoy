@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/ScreenBackground"
+    tools:context="com.activities.fragments.pagesPrincipales.RechercheFragment">
+
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Recherche un produit"
+        android:layout_marginTop="44dp"
+        android:iconifiedByDefault="false"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/boutonScan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Scan un produit"
+        style="@style/BoutonText"
+        android:backgroundTint="@color/vertClair"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchView" />
+
+    <TextView
+        android:id="@+id/scrollHistorique"
+        style="@style/TitreText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="  Historique"
+        app:layout_constraintTop_toBottomOf="@id/boutonScan"
+        tools:layout_editor_absoluteX="2dp" />
+
+    <ProgressBar
+        android:id="@+id/roueChargementRecherche"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/scrollHistorique"
+        android:layout_marginTop="130dp"
+        />
+
+    <FrameLayout
+        android:id="@+id/frameId"
+        android:layout_width="match_parent"
+        android:layout_height="482dp"
+        android:layout_marginTop="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollHistorique">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recylerview_historique"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="2dp"
+            android:layout_marginBottom="4dp"
+            app:layout_constraintBottom_toBottomOf="@id/frameId"
+            app:layout_constraintEnd_toEndOf="@id/frameId"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@id/frameId"
+            app:layout_constraintTop_toBottomOf="@+id/frameId"
+            app:layout_constraintVertical_bias="0.86" />
+
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

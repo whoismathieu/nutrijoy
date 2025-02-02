@@ -1,0 +1,83 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TestFragmentActivity2" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.TestFragmentActivity2" parent="Base.Theme.TestFragmentActivity2" />
+
+
+    <!-- Ce qui permet d'avoir le fond d'un item du menu en vert lorsqu'on clique dessus -->
+    <!-- les annotations chelou au dessus ne viennent pas de moi -->
+
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item
+            name="android:color">@color/vertClair</item>
+    </style>
+
+    <style name="ItemCouleur">
+        <item name="cardBackgroundColor">@color/grisClair</item>
+    </style>
+
+    <style name="ItemText">
+        <item name="color">@color/vertFonce</item>
+        <item name="fontFamily">@font/cocogoose_trial</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="BoutonText">
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/cocogoose_trial</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TitreText">
+        <item name="fontFamily">@font/cocogoose_trial</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/vertFonce</item>
+
+    </style>
+
+    <style name="TitreNutriJoy">
+       <item name="fontFamily">@font/cocogoose_trial</item>
+        <item name="android:textColor">@color/vertClair</item>
+        <item name="android:textSize">48sp</item>
+    </style>
+
+
+    <style name="nomProduit">
+        <item name="android:textColor">@color/vertFonce</item>
+        <item name="fontFamily">@font/cocogoose_trial</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+    <style name="BoutonDeco">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="BoutonPara">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    
+
+
+    <style name="ScreenBackground">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="textFin">
+        <item name="android:textColor">@color/vertFonce</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+</resources>
+
+
+
+

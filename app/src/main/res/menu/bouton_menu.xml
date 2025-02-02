@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- les differents items de la barre de menu -->
+
+<!-- les images sont dans le dossier drawable -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_boutonRecherche"
+        android:title="recherche"
+        android:icon="@drawable/codebarre"
+        />
+
+    <item
+        android:id="@+id/menu_boutonFavoris"
+        android:title="favoris"
+        android:icon="@drawable/favoris"
+        />
+
+    <item
+        android:id="@+id/menu_boutonStatistique"
+        android:title="statistique"
+        android:icon="@drawable/statiqtique" />
+
+    <item
+        android:id="@+id/menu_boutonParametre"
+        android:title="parametre"
+        android:icon="@drawable/parametre" />
+
+</menu>

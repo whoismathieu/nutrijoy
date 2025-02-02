@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "994084720983",
+    "project_id": "nutrijoyfirebase",
+    "storage_bucket": "nutrijoyfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994084720983:android:afe5daf0946f2d1003ee12",
+        "android_client_info": {
+          "package_name": "com.nutrijoy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkRyWbwyvvtXLEAHFB_eJkWN-bQSSA-es"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

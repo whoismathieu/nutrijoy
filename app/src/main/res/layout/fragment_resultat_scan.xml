@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Place un scrollView à la place d'un habituel constraint layout.
+       Le constraint layout est placé à l'intérieur du Scroll View et
+       dedans on les differents composants d'une page
+
+       J'ai trouvé cette maniere d'integrer une page scrollable sur ytb lien dans #lienimportant discord
+
+   Si vous avez des problèmes le code de la page fixe est fourni en commentaire juste après ce code
+
+ cv-->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ScreenBackground"
+  android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="40sp"
+        tools:context="com.activities.fragments.pagesResultat.ResultatScanFragment">
+
+
+        <TextView
+            android:id="@+id/titreProduit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:text="Produit"
+            style="@style/TitreText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/btnFavoris"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="16dp"
+            android:background="?android:selectableItemBackground"
+            android:contentDescription="bouton Favoris"
+            android:src="@drawable/selected_favoris"
+            app:layout_constraintBottom_toBottomOf="@+id/titreProduit"
+            app:layout_constraintEnd_toStartOf="@+id/btnConsomme"
+            app:layout_constraintTop_toTopOf="@+id/titreProduit"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageButton
+            android:id="@+id/btnConsomme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/zxing_transparent"
+            app:layout_constraintBottom_toBottomOf="@+id/btnFavoris"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btnFavoris"
+            app:srcCompat="@drawable/selected_consomme" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="244dp"
+            android:layout_height="226dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/uploadimg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titreProduit" />
+
+        <TextView
+            android:id="@+id/nomProduit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="NomProduit"
+            android:textAlignment="center"
+            style="@style/nomProduit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <Button
+            android:id="@+id/boutonComparer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/vertClair"
+            android:text="Comparer ce produit"
+            style="@style/BoutonText"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nomProduit" />
+
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/PieChart"
+            android:layout_width="match_parent"
+            android:layout_height="291dp"
+            android:layout_marginTop="32dp"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/boutonComparer">
+
+
+        </com.github.mikephil.charting.charts.PieChart>
+
+        <ImageView
+            android:id="@+id/imageNutriscore"
+            android:layout_width="128dp"
+            android:layout_height="71dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="Image du Nutriscore"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/PieChart"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@android:drawable/ic_menu_crop" />
+
+        <ProgressBar
+            android:id="@+id/roueChargementProduit"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="44dp"
+            android:layout_height="49dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/boutonComparer" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+
+
