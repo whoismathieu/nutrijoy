@@ -53,9 +53,7 @@ NutriJoy est une application mobile Android conçue pour aider les utilisateurs 
 
 2. Ouvrir le projet avec Android Studio.
 
-3. Configurer les clés d'API (OpenFoodFacts, Firebase) dans les fichiers appropriés.
-
-4. Compiler et exécuter l’application sur un émulateur ou un appareil Android.
+3. Compiler et exécuter l’application sur un émulateur ou un appareil Android.
 
 ---
 
