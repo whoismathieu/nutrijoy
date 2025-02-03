@@ -10,7 +10,7 @@ NutriJoy est une application mobile Android conçue pour aider les utilisateurs 
 
 ---
 
-## 🚀 **Fonctionnalités principales**
+## 📝 **Fonctionnalités principales**
 - **Scan de codes-barres** : Obtenez instantanément les informations nutritionnelles des produits scannés.
 - **Recherche par mots-clés** : Recherchez manuellement des produits.
 - **Historique et favoris** : Suivez les produits déjà scannés ou enregistrez vos produits préférés.
