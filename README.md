@@ -78,10 +78,10 @@ NutriJoy est une application mobile Android conçue pour aider les utilisateurs 
 ---
 
 ## 👥 **Équipe**
-- **Vincent Tan**  
-- **Ali Traore**  
-- **Mathieu Moustache**  
-- **Abdel Malik Djaffer**
+- [**Mathieu Moustache**](https://github.com/whoismathieu)
+- [**Vincent Tan**](https://github.com/20centan)
+- [**Ali Traore**](https://github.com/Taliii7)
+- [**Abdel Malik Djaffer**]()
 
 ---
 
