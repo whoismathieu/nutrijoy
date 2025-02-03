@@ -87,7 +87,7 @@ NutriJoy est une application mobile Android conçue pour aider les utilisateurs 
 
 ## 📚 **Ressources**
 - [OpenFoodFacts API](https://openfoodfacts.github.io/openfoodfacts-server/api/)
+- [MongoDB Java SDK](https://www.mongodb.com/docs/atlas/device-sdks/sdk/java/)
 - [Retrofit](https://square.github.io/retrofit/)
 - [Firebase](https://firebase.google.com/docs)
 - [Android Studio](https://developer.android.com/studio)
-- [MongoDB Java SDK](https://www.mongodb.com/docs/atlas/device-sdks/sdk/java/)
