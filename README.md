@@ -1,4 +1,4 @@
-# NutriJoy - Application de Gestion des Habitudes Alimentaires
+# NutriJoy - Application de Gestion des Habitudes Alimentaires [Projet de groupe L2 semestre 2]
 
 **Version :** 1.0  
 **Date de création :** 26/05/2024  
