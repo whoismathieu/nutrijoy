@@ -47,7 +47,7 @@ NutriJoy est une application mobile Android conçue pour aider les utilisateurs 
 ## 🔧 **Installation**
 1. Cloner le dépôt :  
    ```bash
-   git clone https://lien-vers-votre-dépôt.git
+   git clone https://github.com/whoismathieu/nutrijoy.git
    cd nutrijoy
    ```
 
