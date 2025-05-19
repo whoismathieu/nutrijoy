@@ -30,7 +30,6 @@ NutriJoy est une application mobile Android conçue pour aider les utilisateurs 
 - **Frontend :**
   - Android Studio (environnement de développement)
   - Java et XML (développement de l'interface)
-  - RecyclerView (affichage des listes)
 
 ---
 
