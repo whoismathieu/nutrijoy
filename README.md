@@ -5,12 +5,12 @@
 
 ---
 
-## 📱 **Présentation**
+## **Présentation**
 NutriJoy est une application mobile Android conçue pour aider les utilisateurs à surveiller et gérer leurs habitudes alimentaires. L'application permet de scanner les codes-barres des produits alimentaires et de visualiser les informations nutritionnelles à l'aide de graphiques clairs et interactifs.
 
 ---
 
-## 📝 **Fonctionnalités principales**
+## **Fonctionnalités principales**
 - **Scan de codes-barres** : Obtenez instantanément les informations nutritionnelles des produits scannés.
 - **Recherche par mots-clés** : Recherchez manuellement des produits.
 - **Historique et favoris** : Suivez les produits déjà scannés ou enregistrez vos produits préférés.
@@ -20,7 +20,7 @@ NutriJoy est une application mobile Android conçue pour aider les utilisateurs 
 
 ---
 
-## ⚙️ **Technologies utilisées**
+## **Technologies utilisées**
 - **Backend :**
   - MongoDB (système de gestion de bases de données)
   - Firebase (authentification et gestion des sessions)
@@ -34,7 +34,7 @@ NutriJoy est une application mobile Android conçue pour aider les utilisateurs 
 
 ---
 
-## 📂 **Structure du projet**
+## **Structure du projet**
 - **`activities`** : Contient les classes gérant les différentes pages de l'application.
 - **`model`** : Définit les objets manipulés dans l'application.
 - **`bdd`** : Gestion de la communication avec la base de données.
@@ -44,7 +44,7 @@ NutriJoy est une application mobile Android conçue pour aider les utilisateurs 
 
 ---
 
-## 🔧 **Installation**
+## **Installation**
 1. Cloner le dépôt :  
    ```bash
    git clone https://github.com/whoismathieu/nutrijoy.git
@@ -77,7 +77,7 @@ NutriJoy est une application mobile Android conçue pour aider les utilisateurs 
 
 ---
 
-## 👥 **Équipe**
+## **Équipe**
 - [**Mathieu Moustache**](https://github.com/whoismathieu)
 - [**Vincent Tan**](https://github.com/20centan)
 - [**Ali Traore**](https://github.com/Taliii7)
